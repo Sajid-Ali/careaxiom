@@ -1,0 +1,7 @@
+<%- include('header.ejs') %>
+<ul>
+    <%for(let index=0; index<list.length; index++) {%>
+        <li><%=list[index].url %> - <%=list[index].title %></li>
+     <%}%>
+</ul>
+<%- include('footer.ejs') %>
